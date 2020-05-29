@@ -7,7 +7,6 @@ curl
 fish
 gimp
 git
-gnome-shell-extension-prefs
 grc
 imagemagick
 imagemagick-doc
