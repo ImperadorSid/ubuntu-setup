@@ -2,7 +2,7 @@
 folder-children=['Utilities', 'b59315fc-c88a-4f59-bc43-66e57bf6706b', 'd74de75d-4095-43c9-a275-d8a6243f8afd']
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['debian-uxterm.desktop', 'debian-xterm.desktop', 'display-im6.q16.desktop', 'gnome-control-center.desktop', 'gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'openjdk-8-policytool.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.desktop']
+apps=['debian-uxterm.desktop', 'debian-xterm.desktop', 'display-im6.q16.desktop', 'gnome-control-center.desktop', 'gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'openjdk-8-policytool.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.Application.desktop']
 categories=['X-GNOME-Utilities']
 name='X-GNOME-Utilities.directory'
 translate=true
