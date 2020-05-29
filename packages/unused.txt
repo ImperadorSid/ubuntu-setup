@@ -1,0 +1,7 @@
+firefox
+firefox-locale-en
+gedit
+gnome-characters
+gnome-logs
+gnome-power-manager
+yelp

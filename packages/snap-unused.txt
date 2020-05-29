@@ -1,0 +1,4 @@
+snap-store
+gtk-common-themes
+gnome-3-34-1804
+

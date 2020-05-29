@@ -1,0 +1,71 @@
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'b59315fc-c88a-4f59-bc43-66e57bf6706b']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['debian-uxterm.desktop', 'debian-xterm.desktop', 'display-im6.q16.desktop', 'gnome-control-center.desktop', 'gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/b59315fc-c88a-4f59-bc43-66e57bf6706b]
+apps=['software-properties-drivers.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop', 'software-properties-livepatch.desktop']
+name='Ubuntu'
+translate=false
+
+[org/gnome/desktop/interface]
+gtk-theme='Yaru-dark'
+monospace-font-name='JetBrainsMono Nerd Font 13'
+
+[org/gnome/gnome-system-monitor]
+graph-update-interval=1000
+update-interval=1000
+cpu-stacked-area-chart=true
+
+[org/gnome/gnome-system-monitor/proctree]
+col-24-visible=false
+col-26-visible=false
+sort-col=15
+columns-order=[0, 12, 1, 2, 3, 4, 6, 8, 9, 10, 11, 15, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+col-1-visible=false
+col-14-visible=true
+col-22-visible=false
+col-23-visible=false
+col-25-visible=false
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-2-visible=false
+col-0-visible=false
+col-5-visible=false
+col-6-width=0
+
+[org/gnome/settings-daemon/plugins/media-keys]
+control-center=['<Super>i']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+home=['<Super>e']
+www=['<Super>c']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>t'
+command='/home/impsid/.local/scripts/terminal-dropdown.sh'
+name='Alacritty'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Primary><Shift>Escape'
+command='gnome-system-monitor'
+name='System Monitor'
+
+[org/gnome/shell]
+disabled-extensions=['desktop-icons@csoriano', 'ubuntu-dock@ubuntu.com']
+
+[org/gnome/terminal/legacy]
+default-show-menubar=false
+menu-accelerator-enabled=false
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=true
+background-color='#282A36'
+foreground-color='#F8F8F2'
+palette=['#21222C', '#FF5555', '#50FA7B', '#F1FA8C', '#BD93F9', '#FF79C6', '#8BE9FD', '#F8F8F2', '#6272A4', '#FF6E6E', '#69FF94', '#FFFFA5', '#D6ACFF', '#FF92DF', '#A4FFFF', '#FFFFFF']
+use-theme-colors=false
+visible-name='Default'
+
