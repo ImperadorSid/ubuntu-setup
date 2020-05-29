@@ -1,8 +1,8 @@
 [org/gnome/desktop/app-folders]
-folder-children=['Utilities', 'b59315fc-c88a-4f59-bc43-66e57bf6706b']
+folder-children=['Utilities', 'b59315fc-c88a-4f59-bc43-66e57bf6706b', 'd74de75d-4095-43c9-a275-d8a6243f8afd']
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['debian-uxterm.desktop', 'debian-xterm.desktop', 'display-im6.q16.desktop', 'gnome-control-center.desktop', 'gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.desktop']
+apps=['debian-uxterm.desktop', 'debian-xterm.desktop', 'display-im6.q16.desktop', 'gnome-control-center.desktop', 'gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'openjdk-8-policytool.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.seahorse.desktop']
 categories=['X-GNOME-Utilities']
 name='X-GNOME-Utilities.directory'
 translate=true
@@ -10,6 +10,11 @@ translate=true
 [org/gnome/desktop/app-folders/folders/b59315fc-c88a-4f59-bc43-66e57bf6706b]
 apps=['software-properties-drivers.desktop', 'software-properties-gtk.desktop', 'update-manager.desktop', 'software-properties-livepatch.desktop']
 name='Ubuntu'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/d74de75d-4095-43c9-a275-d8a6243f8afd]
+apps=['Alacritty.desktop', 'google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'vifm.desktop']
+name='Shortcuts'
 translate=false
 
 [org/gnome/desktop/interface]
@@ -40,8 +45,8 @@ col-6-width=0
 
 [org/gnome/settings-daemon/plugins/media-keys]
 control-center=['<Super>i']
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
-home=['<Super>e']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+home=['<Shift><Super>e']
 www=['<Super>c']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
@@ -50,6 +55,11 @@ command='/home/impsid/.local/scripts/terminal-dropdown.sh'
 name='Alacritty'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>e'
+command='gtk-launch vifm'
+name='Vifm'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2] 
 binding='<Primary><Shift>Escape'
 command='gnome-system-monitor'
 name='System Monitor'
