@@ -66,6 +66,7 @@ name='System Monitor'
 
 [org/gnome/shell]
 disabled-extensions=['desktop-icons@csoriano', 'ubuntu-dock@ubuntu.com']
+favorite-apps=@as []
 
 [org/gnome/terminal/legacy]
 default-show-menubar=false
