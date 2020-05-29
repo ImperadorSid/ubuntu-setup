@@ -12,7 +12,7 @@ fuse-zip
 gawk
 gimp
 git
-gnome-shell-extensions-prefs
+gnome-shell-extension-prefs
 grc
 highlight
 imagemagick
