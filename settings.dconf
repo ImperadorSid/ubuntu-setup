@@ -20,6 +20,11 @@ translate=false
 [org/gnome/desktop/interface]
 gtk-theme='Yaru-dark'
 monospace-font-name='JetBrainsMono Nerd Font 13'
+enable-hot-corners=true
+
+[org/gnome/desktop/wm/preferences]
+button-layout=':close'
+num-workspaces=3
 
 [org/gnome/gnome-system-monitor]
 graph-update-interval=1000
@@ -42,6 +47,11 @@ col-2-visible=false
 col-0-visible=false
 col-5-visible=false
 col-6-width=0
+
+[org/gnome/mutter]
+workspaces-only-on-primary=false
+center-new-windows=true
+dynamic-workspaces=false
 
 [org/gnome/settings-daemon/plugins/media-keys]
 control-center=['<Super>i']
