@@ -39,10 +39,6 @@ sudo chsh -s /usr/bin/fish impsid
 echo 'Alterando funcionamento do relógio do sistema'
 timedatectl set-local-rtc true
 
-# Input method
-echo 'Alterando gerenciador de entradas de teclado'
-im-config -n xim
-
 # KVM
 echo 'Adicionando usuário ao grupo das máquinas virtuais'
 sudo adduser impsid kvm
