@@ -1,3 +1,4 @@
+evince
 firefox
 firefox-locale-en
 gedit

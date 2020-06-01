@@ -13,11 +13,11 @@ sudo snap install $(cat packages/snaps-user.txt)
 # sudo apt install -y $(cat packages/optional.txt)
 
 # Unused softwares
-echo 'Removendo pacotes não-utilizados'
+echo 'Removendo pacotes não utilizados'
 sudo apt purge -y $(cat packages/unused.txt)
 
 # Unused softwares
-echo 'Removendo pacotes não-utilizados'
+echo 'Removendo snaps não utilizados'
 sudo snap remove $(cat packages/snap-unused.txt)
 
 # Clean packages
@@ -45,5 +45,4 @@ sudo adduser impsid kvm
 
 # DConf settings
 echo 'Restaurando configurações via DConf'
-dconf reset -f /org/gnome/terminal/legacy/
 dconf load / < settings.dconf 
