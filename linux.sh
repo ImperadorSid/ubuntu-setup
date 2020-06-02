@@ -22,8 +22,10 @@ sudo snap remove $(cat packages/snaps-unused.txt)
 
 # Clean packages
 echo 'Limpando cache do repositório de pacotes'
-sudo apt clean
+sudo apt update
+sudo apt upgrade -y
 sudo apt autoremove -y
+sudo apt clean
 
 # Pastas
 echo 'Criando pastas'
