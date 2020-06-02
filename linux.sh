@@ -18,7 +18,7 @@ sudo apt purge -y $(cat packages/unused.txt)
 
 # Unused softwares
 echo 'Removendo snaps não utilizados'
-sudo snap remove $(cat packages/snap-unused.txt)
+sudo snap remove $(cat packages/snaps-unused.txt)
 
 # Clean packages
 echo 'Limpando cache do repositório de pacotes'
@@ -45,4 +45,4 @@ sudo adduser impsid kvm
 
 # DConf settings
 echo 'Restaurando configurações via DConf'
-dconf load / < settings.dconf 
+dconf load / < settings.ini
