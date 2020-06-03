@@ -7,16 +7,13 @@ sudo apt install -y $(cat packages/user.txt)
 # Snaps
 echo 'Instalando snaps'
 sudo snap install $(cat packages/snaps-user.txt)
-
-# Optional softwares
-# echo 'Instalando pacotes opcionais'
-# sudo apt install -y $(cat packages/optional.txt)
+sudo snap install --beta authy
 
 # Unused softwares
 echo 'Removendo pacotes não utilizados'
 sudo apt purge -y $(cat packages/unused.txt)
 
-# Unused softwares
+# Unused snaps
 echo 'Removendo snaps não utilizados'
 sudo snap remove $(cat packages/snaps-unused.txt)
 
@@ -24,7 +21,6 @@ sudo snap remove $(cat packages/snaps-unused.txt)
 echo 'Limpando cache do repositório de pacotes'
 sudo apt update
 sudo apt upgrade -y
-sudo apt autoremove -y
 sudo apt clean
 
 # Pastas
@@ -48,3 +44,4 @@ sudo adduser impsid kvm
 # DConf settings
 echo 'Restaurando configurações via DConf'
 dconf load / < settings.ini
+
