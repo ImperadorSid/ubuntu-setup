@@ -15,5 +15,6 @@ jq
 openjdk-8-jdk
 openssh-server
 qemu-kvm
+virtualbox-qt
 vlc
 xclip
